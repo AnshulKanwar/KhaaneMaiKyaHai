@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8AC2EF8298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F8AC2EF7298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8AC2EFD298FCDBD003BB59C /* KhaaneMaiKyaHaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC2EFC298FCDBD003BB59C /* KhaaneMaiKyaHaiApp.swift */; };
+		F8AC2EFF298FCDBD003BB59C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC2EFE298FCDBD003BB59C /* ContentView.swift */; };
+		F8AC2F01298FCDBE003BB59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AC2F00298FCDBE003BB59C /* Assets.xcassets */; };
+		F8AC2F04298FCDBE003BB59C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AC2F03298FCDBE003BB59C /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8AC2EF9298FCDBD003BB59C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8AC2EEB298FCDBD003BB59C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8AC2EF6298FCDBD003BB59C;
+			remoteInfo = "KhaaneMaiKyaHai Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8AC2F0A298FCDBE003BB59C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F8AC2EF8298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F8AC2EF1298FCDBD003BB59C /* KhaaneMaiKyaHai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhaaneMaiKyaHai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AC2EF7298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KhaaneMaiKyaHai Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AC2EFC298FCDBD003BB59C /* KhaaneMaiKyaHaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhaaneMaiKyaHaiApp.swift; sourceTree = "<group>"; };
+		F8AC2EFE298FCDBD003BB59C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8AC2F00298FCDBE003BB59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8AC2F03298FCDBE003BB59C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8AC2EF4298FCDBD003BB59C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8AC2EEA298FCDBD003BB59C = {
+			isa = PBXGroup;
+			children = (
+				F8AC2EFB298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App */,
+				F8AC2EF2298FCDBD003BB59C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8AC2EF2298FCDBD003BB59C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8AC2EF1298FCDBD003BB59C /* KhaaneMaiKyaHai.app */,
+				F8AC2EF7298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8AC2EFB298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F8AC2EFC298FCDBD003BB59C /* KhaaneMaiKyaHaiApp.swift */,
+				F8AC2EFE298FCDBD003BB59C /* ContentView.swift */,
+				F8AC2F00298FCDBE003BB59C /* Assets.xcassets */,
+				F8AC2F02298FCDBE003BB59C /* Preview Content */,
+			);
+			path = "KhaaneMaiKyaHai Watch App";
+			sourceTree = "<group>";
+		};
+		F8AC2F02298FCDBE003BB59C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8AC2F03298FCDBE003BB59C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8AC2EF0298FCDBD003BB59C /* KhaaneMaiKyaHai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8AC2F0B298FCDBE003BB59C /* Build configuration list for PBXNativeTarget "KhaaneMaiKyaHai" */;
+			buildPhases = (
+				F8AC2EEF298FCDBD003BB59C /* Resources */,
+				F8AC2F0A298FCDBE003BB59C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8AC2EFA298FCDBD003BB59C /* PBXTargetDependency */,
+			);
+			name = KhaaneMaiKyaHai;
+			productName = KhaaneMaiKyaHai;
+			productReference = F8AC2EF1298FCDBD003BB59C /* KhaaneMaiKyaHai.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F8AC2EF6298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8AC2F07298FCDBE003BB59C /* Build configuration list for PBXNativeTarget "KhaaneMaiKyaHai Watch App" */;
+			buildPhases = (
+				F8AC2EF3298FCDBD003BB59C /* Sources */,
+				F8AC2EF4298FCDBD003BB59C /* Frameworks */,
+				F8AC2EF5298FCDBD003BB59C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KhaaneMaiKyaHai Watch App";
+			productName = "KhaaneMaiKyaHai Watch App";
+			productReference = F8AC2EF7298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8AC2EEB298FCDBD003BB59C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F8AC2EF0298FCDBD003BB59C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F8AC2EF6298FCDBD003BB59C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F8AC2EEE298FCDBD003BB59C /* Build configuration list for PBXProject "KhaaneMaiKyaHai" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8AC2EEA298FCDBD003BB59C;
+			productRefGroup = F8AC2EF2298FCDBD003BB59C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8AC2EF0298FCDBD003BB59C /* KhaaneMaiKyaHai */,
+				F8AC2EF6298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8AC2EEF298FCDBD003BB59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AC2EF5298FCDBD003BB59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AC2F04298FCDBE003BB59C /* Preview Assets.xcassets in Resources */,
+				F8AC2F01298FCDBE003BB59C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8AC2EF3298FCDBD003BB59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AC2EFF298FCDBD003BB59C /* ContentView.swift in Sources */,
+				F8AC2EFD298FCDBD003BB59C /* KhaaneMaiKyaHaiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8AC2EFA298FCDBD003BB59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8AC2EF6298FCDBD003BB59C /* KhaaneMaiKyaHai Watch App */;
+			targetProxy = F8AC2EF9298FCDBD003BB59C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8AC2F05298FCDBE003BB59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8AC2F06298FCDBE003BB59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F8AC2F08298FCDBE003BB59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KhaaneMaiKyaHai Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K32Q33F6NC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KhaaneMaiKyaHai;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.anshulkanwar.KhaaneMaiKyaHai.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		F8AC2F09298FCDBE003BB59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KhaaneMaiKyaHai Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K32Q33F6NC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KhaaneMaiKyaHai;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.anshulkanwar.KhaaneMaiKyaHai.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		F8AC2F0C298FCDBE003BB59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K32Q33F6NC;
+				INFOPLIST_KEY_CFBundleDisplayName = KhaaneMaiKyaHai;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.anshulkanwar.KhaaneMaiKyaHai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F8AC2F0D298FCDBE003BB59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K32Q33F6NC;
+				INFOPLIST_KEY_CFBundleDisplayName = KhaaneMaiKyaHai;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.anshulkanwar.KhaaneMaiKyaHai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8AC2EEE298FCDBD003BB59C /* Build configuration list for PBXProject "KhaaneMaiKyaHai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8AC2F05298FCDBE003BB59C /* Debug */,
+				F8AC2F06298FCDBE003BB59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8AC2F07298FCDBE003BB59C /* Build configuration list for PBXNativeTarget "KhaaneMaiKyaHai Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8AC2F08298FCDBE003BB59C /* Debug */,
+				F8AC2F09298FCDBE003BB59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8AC2F0B298FCDBE003BB59C /* Build configuration list for PBXNativeTarget "KhaaneMaiKyaHai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8AC2F0C298FCDBE003BB59C /* Debug */,
+				F8AC2F0D298FCDBE003BB59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8AC2EEB298FCDBD003BB59C /* Project object */;
+}
