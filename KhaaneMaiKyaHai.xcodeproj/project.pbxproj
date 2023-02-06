@@ -12,6 +12,10 @@
 		F8AC2EFF298FCDBD003BB59C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC2EFE298FCDBD003BB59C /* ContentView.swift */; };
 		F8AC2F01298FCDBE003BB59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AC2F00298FCDBE003BB59C /* Assets.xcassets */; };
 		F8AC2F04298FCDBE003BB59C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AC2F03298FCDBE003BB59C /* Preview Assets.xcassets */; };
+		F8AC2F0F298FCDCE003BB59C /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC2F0E298FCDCE003BB59C /* Dish.swift */; };
+		F8AC2F11298FCDFF003BB59C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC2F10298FCDFF003BB59C /* Menu.swift */; };
+		F8AC2F13298FD015003BB59C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC2F12298FD015003BB59C /* MenuView.swift */; };
+		F8AC2F15298FD84B003BB59C /* DishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC2F14298FD84B003BB59C /* DishView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		F8AC2EFE298FCDBD003BB59C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8AC2F00298FCDBE003BB59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8AC2F03298FCDBE003BB59C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8AC2F0E298FCDCE003BB59C /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		F8AC2F10298FCDFF003BB59C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		F8AC2F12298FD015003BB59C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F8AC2F14298FD84B003BB59C /* DishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 			children = (
 				F8AC2EFC298FCDBD003BB59C /* KhaaneMaiKyaHaiApp.swift */,
 				F8AC2EFE298FCDBD003BB59C /* ContentView.swift */,
+				F8AC2F12298FD015003BB59C /* MenuView.swift */,
+				F8AC2F14298FD84B003BB59C /* DishView.swift */,
+				F8AC2F0E298FCDCE003BB59C /* Dish.swift */,
+				F8AC2F10298FCDFF003BB59C /* Menu.swift */,
 				F8AC2F00298FCDBE003BB59C /* Assets.xcassets */,
 				F8AC2F02298FCDBE003BB59C /* Preview Content */,
 			);
@@ -192,7 +204,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8AC2F13298FD015003BB59C /* MenuView.swift in Sources */,
+				F8AC2F0F298FCDCE003BB59C /* Dish.swift in Sources */,
+				F8AC2F15298FD84B003BB59C /* DishView.swift in Sources */,
 				F8AC2EFF298FCDBD003BB59C /* ContentView.swift in Sources */,
+				F8AC2F11298FCDFF003BB59C /* Menu.swift in Sources */,
 				F8AC2EFD298FCDBD003BB59C /* KhaaneMaiKyaHaiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
