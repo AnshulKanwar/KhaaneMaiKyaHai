@@ -21,11 +21,21 @@ let menu: [Day: Meal] = [
                     .brownBread, .mixJam, .butter, .curd, .boiledEgg, .bhurji],
         lunch: [.alooMethi, .rajma, .onionRice, .chapati, .mixVegRaita, .greenSalad],
         dinner: [.dalMakhani, .mixVeg, .vegPulao, .chapati, .jalebi + .boondiLaddu, .macroniSalad]),
-    .tuesday: Meal(breakfast: [], lunch: [], dinner: []),
+    
+    .tuesday: Meal(
+        breakfast: [.dalia, .alooParantha, .tea, .hotMilk, .coffee, .bournvita, .brownBread,
+                    .mixJam, .butter, .curd, .boiledEgg, .omelette],
+        lunch: [.kadaiSoya, .kadiPakoda, .plainRice, .chapati, .jeeraRaita, .onionSalad],
+        dinner: [.masoorDal, .vegMakhani + .dumAloo, .jeeraRice, .chapati, .gulabJamun, .greenSalad, .hotAndSourSoup]),
+    
     .wednesday: Meal(breakfast: [], lunch: [], dinner: []),
+    
     .thursday: Meal(breakfast: [], lunch: [], dinner: []),
+    
     .friday: Meal(breakfast: [], lunch: [], dinner: []),
+    
     .saturday: Meal(breakfast: [], lunch: [], dinner: []),
+    
     .sunday: Meal(breakfast: [.sprouts, .idli, .sambhar, .tea, .hotMilk, .coffee, .bournvita,
                               .bournvita, .mixJam, .butter, .curd, .boiledEgg],
                   lunch: [.chutney, .choley, .jeeraRice, .bhature, .sweetLassi, .lachaOnion],

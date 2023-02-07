@@ -66,6 +66,7 @@ extension Dish {
     // Breakfast
     static let dalia = Dish(name: "Dalia", calories: 359)
     static let alooParantha = Dish(name: "Aloo Parantha", calories: 290)
+    static let omelette = Dish(name: "Omelette", calories: 153)
     // Lunch
     static let kadaiSoya = Dish(name: "Kadai Soya", calories: 120)
     static let kadiPakoda = Dish(name: "Kadi Pakoda", calories: 126)
