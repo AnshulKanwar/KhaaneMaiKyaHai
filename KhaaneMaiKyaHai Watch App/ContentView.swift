@@ -9,18 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(Day.allCases, id: \.self) { day in
+            NavigationLink(day.rawValue.capitalized) {
+                MenuView(menu: getMenu(on: day))
+                    .navigationTitle(day.rawValue.capitalized)
+            }
         }
-        .padding()
+        .navigationTitle("Khaane mai kya hai?")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationStack {
+            ContentView()
+        }
     }
 }
